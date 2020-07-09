@@ -1,0 +1,17 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec mocha -R min --timeout 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.0.1",
+    "mongoose": "^5.9.20",
+    "nodemon": "^2.0.4"
+  }
+}
